@@ -4,4 +4,4 @@ Es una aplicación básica para probar la conexión de Open ID Connect, está re
 
 # Requisitos
 
-Es necesario contar con una cuenta en OneLogin y una app One Login en el portal. La app en la cual está basada esta aplicación de prueba, se encuentra en la siguiente liga
+Es necesario contar con una cuenta en OneLogin y una app One Login en el portal. La app en la cual está basada esta aplicación de prueba, se encuentra en la siguiente [liga](https://github.com/onelogin/onelogin-oidc-java/tree/master/spring-boot-app)
