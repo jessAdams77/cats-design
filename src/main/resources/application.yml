@@ -1,25 +1,17 @@
 spring.main.allow-bean-definition-overriding: true
-
 security:
   oauth2:
     client:
-      clientId: 2e1ec970-6cbd-0138-221f-022df7533c04169139
-      clientSecret: a8b33164a65f88af4fac682ac5c31e53048bbe2500446c5931199a7786bb33f6
-      accessTokenUri: https://openid-connect.onelogin.com/oidc/token
-      userAuthorizationUri: https://openid-connect.onelogin.com/oidc/auth
+      clientId: <Tu cliente ID>
+      clientSecret: <Tu secret client>
+      accessTokenUri: https://<Tu subdominio>.onelogin.com/oidc/token
+      userAuthorizationUri: https://<Tu subdominio>.onelogin.com/oidc/auth
       tokenName: access_token
       authorizedGrantTypes: authorization_code
       authenticationScheme: form
       clientAuthenticationScheme: form
       scope: openid,profile,email
     resource:
-      userInfoUri: https://openid-connect.onelogin.com/oidc/me
+      userInfoUri: https://<Tu subdominio>.onelogin.com/oidc/me
 server:
   port : 8081
-logging:
-  level:
-     org:
-       springframework:
-         security:
-          web:
-            FilterChainProxy: ERROR
